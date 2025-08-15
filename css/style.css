@@ -66,13 +66,35 @@ textarea {
   font-weight: 500;
   font-size: 18px;
 }
+
+.navbar__link:hover {
+  color: #d9c089;
+}
+
 .navbar__options {
   display: flex;
   gap: 20px;
 }
+
+.navbar__options a:hover {
+  color: #d9c089;
+}
+
+.navbar__options i:hover {
+  color: #d9c089;
+}
+.navbar__options select:hover {
+  color: #d9c089;
+}
+
 .navbar__options select {
   background: transparent;
   color: white;
+  font-size: 16px;
+}
+.navbar__options select option {
+  background: transparent;
+  color: black;
   font-size: 16px;
 }
 .navbar__options a {
